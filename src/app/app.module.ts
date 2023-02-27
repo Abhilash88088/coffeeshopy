@@ -24,7 +24,6 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { PaginationComponent } from './pagination/pagination.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { ForumsComponent } from './forums/forums.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +35,6 @@ import { ForumsComponent } from './forums/forums.component';
     FailureCardComponent,
     ApiComponent,
     PaginationComponent,
-    ForumsComponent
   ],
   imports: [
     BrowserModule,
